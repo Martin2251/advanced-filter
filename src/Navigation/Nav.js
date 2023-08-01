@@ -1,5 +1,7 @@
 import React from 'react'
 import './Nav.css'
+import {FiHeart} from 'react-icons/fi'
+import {AiPOutlineShoppingCart, AiOutlineUserAdd} from "react-icons/ai"
 
 const Nav = () => {
   return (
@@ -9,7 +11,8 @@ const Nav = () => {
        </div>
        <div className='profile-container'>
         <a href="#">
-            
+            <FiHeart className='nav-icons' />
+
         </a>
        </div>
 
